@@ -11,7 +11,7 @@ namespace socket.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+            return Redirect("/app/index.html");
         }
     }
 }
